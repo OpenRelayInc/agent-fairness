@@ -1,0 +1,48 @@
+{
+  "light": {
+    "roots": 32,
+    "capacity": 8,
+    "workers": 1,
+    "roots_per_burst": 1,
+    "burst_period": 18.0,
+    "spacing": 0,
+    "queue_timeout": 30.0,
+    "root_deadline": 18.0,
+    "horizon": 580.0
+  },
+  "mixed": {
+    "roots": 144,
+    "capacity": 8,
+    "workers": 1,
+    "roots_per_burst": 1,
+    "burst_period": 3.8,
+    "spacing": 0,
+    "queue_timeout": 180.0,
+    "root_deadline": 60.0,
+    "horizon": 900.0
+  },
+  "burst": {
+    "roots": 144,
+    "capacity": 8,
+    "workers": 1,
+    "roots_per_burst": 12,
+    "burst_period": 46.0,
+    "spacing": 0.2,
+    "queue_timeout": 90.0,
+    "root_deadline": 60.0,
+    "horizon": 680.0
+  },
+  "timeouts": {
+    "roots": 96,
+    "capacity": 8,
+    "workers": 1,
+    "roots_per_burst": 24,
+    "burst_period": 20.0,
+    "spacing": 0.1,
+    "queue_timeout": 4.0,
+    "root_deadline": 30.0,
+    "horizon": 130.0,
+    "cancel_fraction": 0.25,
+    "cancel_after": 2.0
+  }
+}
